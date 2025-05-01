@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* Start NavBar */
+.hero{
+    width: 100%;
+    
+    background-image: url(image/9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.hero .layer{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: inherit;
+    border-bottom: 2px rgb(255, 255, 255) ridge;
+}
+.hero .continer{
+    width: 90%;
+    margin: auto;
+}
+.hero .continer nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.hero .continer nav .logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.hero .continer nav .links{
+    margin-right: 30px;
+}
+.hero .continer nav .links a{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.2s;
+}
+.hero .continer nav .links a.active,
+.hero .continer nav .links a:hover{
+    color: #4bffa5;
+    border-bottom: 1px solid #4bffa5;
+}
+
+
+.hero .continer .cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.hero .continer .cont .dis-text{
+    width: 50%;
+    
+}
+.hero .continer .cont .dis-text h1{
+    color: #4bffa5;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.hero .continer .cont .dis-text p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.hero .continer .cont .dis-text button{
+    padding: 15px 30px;
+    color: #111;
+    background-color: #4bffa5;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.hero .continer .cont .dis-text button:hover{
+    background-color: #fff;
+    border: 1px solid #4bffa5;
+    transform: scale(1.1);
+}
+.hero .continer .cont .dis-image{
+    width: 50%;
+}
+
+.hero .continer .dis-image img{
+    width: 100%;
+
+}
+
+#btn-menu{
+    display: none;
+}
+
+/* End NavBar */
+/* Start Second Page*/
+span{
+    color: #4bffa5;
+}
+.amount .header1{
+    color: #fff;
+    font-size: 50px;
+    border-bottom: 2px solid #4bffa5;
+    width: 230px;
+    padding: 10px 0px;
+    margin: 30px auto ;
+}
+.amount .service .product{
+    display: inline-block;
+    width: 32.3333%;
+    margin: 20px 0px
+}
+.amount .service{
+    width: 100%;
+}
+.amount .layer1{
+    width: 90%;
+    margin: auto;
+}
+.amount .service .product img{
+    width: 50%;
+}
+.amount .service .product h3{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+.amount .service .product p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.amount{
+    text-align: center;
+    overflow: auto;
+    background-color: gray;
+    border-bottom: 2px rgb(255, 255, 255) ridge;
+    width: 100%;
+}
+/* End Second Page ----------------------*/
+/* start third Page ----------------------*/
+.contim{
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    border-bottom: 2px rgb(255, 255, 255) ridge;
+}
+.contim .layer2 h2{
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 2px solid #4bffa5;
+    width: 400px;
+    padding: 10px 0px;
+    margin: 30px auto ;
+    text-align: center;
+}
+.layer2 {
+    width: 90%;
+    margin: auto;
+}
+.contim .layer2 .collect{
+    text-align: center;
+    width: 100%;
+}
+.work{
+    display: inline-block;
+    width: 32.3333%;
+    margin: 20px 0px;
+
+}
+.work img{
+    width: 100%;
+}
+.work h3{
+    font-size: 16px;
+}
+/* End third Page ----------------------*/
+
+
+
+.contact1 .layer3 .number .social-link{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.contact1 .layer3 .number .social-link a i{
+    width: 45px;
+    height: 45px;
+    background-color: #242424;
+    border: 2px solid #4bffa5;
+    color: #4bffa5;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.contact1 .layer3 .number .social-link a i:hover{
+    color: #242424;
+    background-color: #4bffa5;
+}
+
+.contact1{
+    width: 100%;
+    background-color: gray;
+}
+.contact1 .layer3 {
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.contact1 .layer3 h2{
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 2px solid #4bffa5;
+    width: 400px;
+    padding: 10px 0px;
+    margin: 30px auto ;
+    text-align: center;
+}
+.contact1 .layer3 .number{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.contact1 .layer3 .number img{
+    width: 60%;
+    border-radius: 20% 20% 20% 20%;
+    border-top:2px solid #4bffa5 ;
+    border-left:2px solid #4bffa5 ;
+    border-bottom:2px solid #ff0000 ;
+    border-right:2px solid #ff0000 ;
+}
+.contact1 .layer3 .number img:hover{
+    transform: scale(1.1);
+}
+.contact1 .layer3 .number h1{
+    margin:25px 0px;
+    font-size: 25px;
+}
+.contact1 .layer3 .number h3{
+    font-size: 18px;
+}
+.contact1 .layer3 h2{
+    font-size: 35px ;
+}
+
+@media (max-width:930px){
+    .hero .continer .cont .dis-text h1{
+        font-size: 30px;
+    }
+    .hero .continer .cont .dis-text p{
+        width: 100%;
+    }
+    .hero .continer nav .links a{
+        margin-left: 20px;
+    }
+    .amount .layer1{
+        width: 100%
+    }
+    .amount .service .product p{
+        font-size: 18px;
+        width: 80%;
+    }
+    .amount .service .product{
+
+        width: 60%;
+        border-top: 2px solid #4bffa5;
+        border-right: 2px solid #4bffa5;
+        border-bottom: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+        border-radius: 0 25% 0 0;
+        
+
+    }
+}
+
+
+@media (max-width:700px){
+    #btn-menu{
+        display: block;
+        color: #fff;
+        font-size: 35px;
+    }
+    .hero .continer nav .links{
+        position: absolute;
+        top: -350px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #1c1e22;
+    }
+    .hero .continer nav .links a{
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 1px solid #444;
+    }
+    .hero .continer nav .links.active{
+        top: 100%;
+    }
+    .hero .continer nav .links a.active,
+    .hero .continer nav .links a:hover{
+        background-color: #ffaa17;
+        color: #1c1e22;
+    }
+    .continer .cont{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .hero .continer .cont .dis-text{
+        width: 90%;
+    }
+    .hero .continer .cont .dis-image{
+        width: 90%;
+    }
+    .contact1 .layer3 .number{
+        display: inline-block;
+        width: 65%;
+        text-align: center;
+    }
+}
+
+@media (max-width:560px){
+    .work{
+        display: inline-block;
+        width: 49%;
+        margin: 25px 0px;
+    
+    }
+}
