@@ -342,7 +342,7 @@ span{
     }
     .contact1 .layer3 .number{
         display: inline-block;
-        width: 65%;
+        width: 100%;
         text-align: center;
     }
 }
